@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/res">
+        <file>Default.js</file>
+        <file>icon.png</file>
+    </qresource>
+</RCC>
