@@ -97,3 +97,5 @@ function addExtraAction(name, func){ ... }
 ```js
 Cipherinator.addCipher("Cipher", function(text, alphabet, decrypt, key){return "Text: " + text + "\nAlphabet: " + alphabet + "\nDecrypt: " + decrypt + "\nKey: " + key;}, "Description");
 ```
+Результат:
+![Результат](http://byprogminer.ru/Cipherinator/example.png)
