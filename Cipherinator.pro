@@ -5,7 +5,6 @@
 #-------------------------------------------------
 
 QT       += core gui qml xml
-RC_FILE = resources.rc
 
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
