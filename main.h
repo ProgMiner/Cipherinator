@@ -12,7 +12,7 @@
 
 #define null nullptr
 #define APPNAME "Cipherinator"
-#define APPVERSION "v0.1"
+#define APPVERSION "v1.0"
 #define SETTINGSFILE (QDir::homePath() + "/Cipherinator.xml")
 #define DEFAULTCODECNAME "UTF-8"
 #define DEFAULTCODEC (*QTextCodec::codecForName(DEFAULTCODECNAME))
