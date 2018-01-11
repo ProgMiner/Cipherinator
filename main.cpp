@@ -101,8 +101,8 @@ using namespace Main;
 Settings* readSetting(){
     Settings* ret = new Settings;
     if(!QFile(SETTINGSFILE).exists()) {
-        ret->alphabet["Русский"] = "абвгдеёжзийклмнопрстувхцчшщъыьэюя";
-        ret->alphabet["Русский (без \"ё\")"] = "абвгдежзийклмнопрстувхцчшщъыьэюя";
+        ret->alphabet["Русский"] = "абвгдеёжзийклмнопрстуфхцчшщъыьэюя";
+        ret->alphabet["Русский (без \"ё\")"] = "абвгдежзийклмнопрстуфхцчшщъыьэюя";
         ret->alphabet["English"] = "abcdefghijklmnopqrstuvwxyz";
         ret->plugin["Default"].enabled = true;
         ret->plugin["Default"].code = "";
