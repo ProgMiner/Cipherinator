@@ -93,5 +93,5 @@ void MainWindow::on_action_5_triggered(){
     int i = msgBox.exec();
     if(i == 1) QMessageBox::aboutQt(this, "О Qt");
     if(i == 2) if(QMessageBox::question(this, "Подтверждение", "Открыть ссылку в браузере?", "Да", "Нет") == 0)
-        QDesktopServices::openUrl(QUrl("http://byprogminer.esy.es/"));
+        QDesktopServices::openUrl(QUrl("https://byprogminer.ru/"));
 }
